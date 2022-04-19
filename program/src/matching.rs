@@ -71,7 +71,7 @@ pub struct InnerNode {
     /// iterate through the whole bookside.
     pub child_earliest_expiry: [u64; 2],
 
-    pub padding: [u8; NODE_SIZE - 48],
+    pub padding: [u32; NODE_SIZE - 48],
 }
 
 impl InnerNode {
